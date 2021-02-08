@@ -5,7 +5,7 @@ const getBreeds = async ({ queryKey }) => {
     debugger;
     const { data, headers } = await api.get('/breeds', {
         params: {
-            limit: 10,
+            limit: 7,
             page: queryKey[1]
         }
     });
